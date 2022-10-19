@@ -46,7 +46,7 @@ export default function MyLocation() {
                 />
             </MapView>: <Text style={styles.msg}>{text}</Text>}
             <View style={styles.text}>
-                <Text>@Copyright by CS571-2022-10</Text>
+                <Text>{'\u00A9'}CS571-2022-10</Text>
             </View>
         </View>
     );
